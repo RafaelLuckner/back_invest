@@ -1,15 +1,19 @@
 import os
-import streamlit as st
-from groq import Groq
-import streamlit as st
-from dotenv import load_dotenv
 import csv
 import json
 import ast
+import toml
+import streamlit as st
+
+from groq import Groq
+from dotenv import load_dotenv
+
 
 st.title("Chat com LLaMA 3 usando Groq API")
 
-API_KEY = os.getenv("GROQ_API_KEY")
+# config = toml.load("senhas.toml")
+# API_KEY = config['api_key']['GROQ_API_KEY']
+API_KEY = st.secrets['api_key']['GROQ_API_KEY']
 
 try:
     client = Groq(api_key=API_KEY)

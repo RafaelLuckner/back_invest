@@ -1,4 +1,5 @@
 import os
+import toml
 import numpy as np
 import pandas as pd
 import datetime as dt
@@ -11,7 +12,9 @@ from datetime import datetime
 
 FILE_LANCAMENTO = "data/lancamentos.csv"
 
-API_KEY = os.getenv("GROQ_API_KEY")
+# config = toml.load("senhas.toml")
+# API_KEY = config['api_key']['GROQ_API_KEY']
+API_KEY = st.secrets['api_key']['GROQ_API_KEY']
 
 data_stocks = pd.read_csv('data/lancamentos.csv')
 
