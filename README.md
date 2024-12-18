@@ -2,6 +2,10 @@
 
 Este projeto fornece um **dashboard interativo** para monitorar o desempenho de ações, gerenciar carteiras de investimentos e realizar backtests de múltiplos ativos ao longo do tempo.
 
+**[ Clique aqui para testar! ](https://backinvest.streamlit.app/)**
+> ⚠️ **Nota:** O app pode demorar alguns segundos para carregar, pois está hospedado em uma plataforma gratuita.
+
+
 ##  Funcionalidades
 
 ### 1. **Monitoramento de Ações**
@@ -41,4 +45,9 @@ Este projeto fornece um **dashboard interativo** para monitorar o desempenho de 
 - **Streamlit** (para o dashboard)
 - **Pandas** (manipulação de dados)
 - **Plotly** (visualização de gráficos)
+
+## Link para o app
+
+### **[👉 Teste você mesmo! 👈](https://backinvest.streamlit.app/)**
+
 

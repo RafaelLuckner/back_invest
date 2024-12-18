@@ -7,3 +7,4 @@ streamlit==1.41.0
 requests==2.32.3
 python-dotenv==1.0.1
 groq==0.13.0
+toml==0.10.2
